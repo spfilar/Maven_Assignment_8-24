@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: admin
+Build-Jdk: 1.8.0_101
+Class-Path: imixs-workflow-jee-impl-2.1.1.jar imixs-workflow-jee-2.1.1
+ .jar imixs-workflow-api-2.1.0.jar imixs-workflow-xml-2.1.0.jar
+Created-By: Maven Integration for Eclipse
+

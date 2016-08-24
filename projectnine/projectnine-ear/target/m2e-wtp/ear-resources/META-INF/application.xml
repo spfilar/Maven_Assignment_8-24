@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+  <description>jsf sample application</description>
+  <display-name>projectnine-ear</display-name>
+  <module>
+    <web>
+      <web-uri>projectnine-web-1.0.war</web-uri>
+      <context-root>/workflow</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>projectnine-ejb-1.0.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>imixs-workflow-soap-2.1.0.war</web-uri>
+      <context-root>/workflow-soap</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>imixs-workflow-rest-2.1.0.war</web-uri>
+      <context-root>/workflow-rest</context-root>
+    </web>
+  </module>
+</application>
